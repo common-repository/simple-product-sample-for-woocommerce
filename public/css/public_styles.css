@@ -1,0 +1,16 @@
+/* STYLESHEET SIMPLE PRODUCT SAMPLE FRONT */
+/*Styles to Product Sample  by MCI Desarrollo*/
+
+.product .quantity,
+.single_add_to_cart_button {
+  margin: 7px;
+}
+.sps_btn:hover {
+  opacity: 0.9;
+  filter: saturate(130%);
+  -webkit-filter: saturate(130%);
+}
+.sps_btn.sps_max {
+  display: inline-block;
+  opacity: 0.5;
+}

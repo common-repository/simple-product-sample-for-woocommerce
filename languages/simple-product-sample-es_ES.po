@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Product Sample for WooCommerce\n"
+"POT-Creation-Date: 2023-02-07 20:32+0100\n"
+"PO-Revision-Date: 2023-02-07 20:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: simple-product-sample.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/master_admin.php:31
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/master_admin.php:53
+msgid ""
+"\"Simple Product Sample\" plugin requires WooCommerce to be installed and "
+"active. Please install and activate WooCommerce first."
+msgstr ""
+"El plugin \"Simple Product Sample\" requiere que WooCommerce esté instalado "
+"y activo. Por favor, instala y activa WooCommerce primero."
+
+#: admin/partials/get_options_panel.php:45
+msgid "SIMPLE PRODUCT SAMPLE - Options -"
+msgstr "SIMPLE PRODUCT SAMPLE - Opciones -"
+
+#: admin/partials/get_options_panel.php:49
+msgid "Do you want the PRO version? "
+msgstr "¿Quieres la versión PRO? "
+
+#: admin/partials/get_options_panel.php:51
+msgid "Get a 30-day free trial here."
+msgstr "Obtener una prueba gratis de 30 días aquí."
+
+#: admin/partials/get_options_panel.php:55
+msgid "Do you need changes in the plugin? Send us an email to"
+msgstr "¿Necesitas cambios en el plugin? Envíanos un email a"
+
+#: admin/partials/get_options_panel.php:57
+msgid "and we will send you a quote."
+msgstr "y te enviaremos un presupuesto."
+
+#: admin/partials/get_options_panel.php:61
+msgid "Thanks for using our plugin. "
+msgstr "Gracias por usar nuestro plugin. "
+
+#: admin/partials/get_options_panel.php:63
+msgid "You will be collaborating to maintain it if you value  "
+msgstr "Estarás colaborando para mantenerlo si valoras  "
+
+#: admin/partials/get_options_panel.php:72
+msgid "Button style"
+msgstr "Estilo del botón"
+
+#: admin/partials/get_options_panel.php:78
+msgid "Button Preview:"
+msgstr "Previsualización del botón:"
+
+#: admin/partials/get_options_panel.php:88
+msgid "Background button color"
+msgstr "Color de fondo del botón"
+
+#: admin/partials/get_options_panel.php:97
+msgid "Text button color"
+msgstr "Color del texto del botón"
+
+#: admin/partials/get_options_panel.php:106
+msgid "Border color"
+msgstr "Color de borde"
+
+#: admin/partials/get_options_panel.php:115
+msgid "Border width"
+msgstr "Ancho de borde"
+
+#: admin/partials/get_options_panel.php:126
+msgid "Button text"
+msgstr "Texto del botón"
+
+#: admin/partials/get_options_panel.php:138
+msgid "Use {price} to display the price of the sample."
+msgstr "Utilizar {price} para mostrar el precio de la muestra."
+
+#: admin/partials/get_options_panel.php:145
+msgid "Button text (max.samples)"
+msgstr "Texto del botón (max.samples)"
+
+#: admin/partials/get_options_panel.php:159
+msgid "Use {max} to display the number of maximum samples."
+msgstr "Utilizar {max} para mostrar el número máximo de muestras."
+
+#: admin/partials/get_options_panel.php:167
+msgid "Font size"
+msgstr "Tamaño de fuente"
+
+#: admin/partials/get_options_panel.php:179
+msgid "Empty field for use default font size."
+msgstr "Vacío para usar el tamaño de fuente por defecto."
+
+#: admin/partials/get_options_panel.php:186
+msgid "Font weight"
+msgstr "Grosor de fuente"
+
+#: admin/partials/get_options_panel.php:197
+msgid ""
+"(From 100 to 900 in steps of 100) Empty field for use default font weight."
+msgstr ""
+"(De 100 a 900 en pasos de 100) Vacío para usar el grosor de fuente "
+"predeterminado."
+
+#: admin/partials/get_options_panel.php:210
+msgid "Padding:"
+msgstr "Relleno:"
+
+#: admin/partials/get_options_panel.php:218
+#: admin/partials/get_options_panel.php:282
+msgid "Top"
+msgstr "Superior"
+
+#: admin/partials/get_options_panel.php:230
+#: admin/partials/get_options_panel.php:294
+msgid "Bottom"
+msgstr "Inferior"
+
+#: admin/partials/get_options_panel.php:242
+#: admin/partials/get_options_panel.php:306
+msgid "Left"
+msgstr "Izquierdo"
+
+#: admin/partials/get_options_panel.php:254
+#: admin/partials/get_options_panel.php:318
+msgid "Right"
+msgstr "Derecho"
+
+#: admin/partials/get_options_panel.php:268
+msgid "Empty fields for use default padding."
+msgstr "Campos vacíos para usar relleno predeterminado."
+
+#: admin/partials/get_options_panel.php:274
+msgid "Margin:"
+msgstr "Margen:"
+
+#: admin/partials/get_options_panel.php:332
+msgid "Empty fields for use default margin."
+msgstr "Campos vacíos para usar margen predeterminado."
+
+#: admin/partials/get_options_panel.php:338
+msgid ""
+"Force the margins on the product page so that the \"Add to cart\" button and "
+"the \"quantity\" field appear aligned. Match the margin of those fields to:"
+msgstr ""
+"Forzar los márgenes en la página del producto para que el botón \"Agregar al "
+"carrito\" y el campo \"cantidad\" aparezcan alineados. Igualar el margen de "
+"esos campos a:"
+
+#: admin/partials/get_options_panel.php:355
+msgid "Empty field for use WooCommerce default margins."
+msgstr "Vacío para usar los márgenes predeterminados de WooCommerce."
+
+#: admin/partials/get_options_panel.php:366
+msgid "General Options"
+msgstr "Opciones Generales"
+
+#: admin/partials/get_options_panel.php:372
+msgid "Maximum number of samples per order"
+msgstr "Número máximo de muestras por pedido"
+
+#: admin/partials/get_options_panel.php:389
+msgid ""
+"Avoid the user having to choose product variations. (Does not add the "
+"variations details to the order)."
+msgstr ""
+"Evitar que el usuario tenga que elegir variaciones de producto. (No añade "
+"los detalles de variaciones al carrito)."
+
+#: admin/partials/get_options_panel.php:399
+msgid "Remove all data on plugin uninstall."
+msgstr "Eliminar todos los datos al desinstalar el plugin."
+
+#: admin/partials/get_options_panel.php:408
+msgid "Prices"
+msgstr "Precios"
+
+#: admin/partials/get_options_panel.php:410
+msgid "Set a sample price for each product at:"
+msgstr "Activar el precio de muestra para cada producto en:"
+
+#: admin/partials/get_options_panel.php:411
+#: admin/partials/get_options_panel.php:444
+#: admin/partials/get_options_panel.php:522
+msgid ""
+"Products->Edit product page->Product data->Inventory->Simple Product Sample"
+msgstr ""
+"Productos->Editar producto->Datos del producto->Inventario->Simple Product "
+"Sample"
+
+#: admin/partials/get_options_panel.php:419
+msgid "Default global sample price (When there is no individual price)"
+msgstr ""
+"Precio de muestra global predeterminado (cuando no hay un precio individual)"
+
+#: admin/partials/get_options_panel.php:433
+msgid ""
+"Default price will be assigned to products that do not have an individual "
+"price selected. Set 0 for free."
+msgstr ""
+"El precio predeterminado se asignará a los productos que no tengan un precio "
+"individual seleccionado. Establecer 0 para gratis."
+
+#: admin/partials/get_options_panel.php:440
+msgid "Show on specific products"
+msgstr "Mostrar en productos específicos"
+
+#: admin/partials/get_options_panel.php:443
+msgid "Activate the sample on each product in:"
+msgstr "Active la muestra en cada producto en:"
+
+#: admin/partials/get_options_panel.php:450
+msgid "Show in products by category"
+msgstr "Mostrar en productos por categoría"
+
+#: admin/partials/get_options_panel.php:459
+msgid "Show sample button in these product categories"
+msgstr "Mostrar el botón de muestra en estas categorías de producto"
+
+#: admin/partials/get_options_panel.php:475
+msgid "Use CTRL or Shift for multiple selection"
+msgstr "Usar CTRL o Mayús para selección múltiple"
+
+#: admin/partials/get_options_panel.php:484
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/partials/get_options_panel.php:491
+msgid "License key"
+msgstr "Clave de licencia"
+
+#: admin/partials/get_options_panel.php:495
+msgid "Activate PRO"
+msgstr "Activar PRO"
+
+#: admin/partials/get_options_panel.php:498
+msgid "Get 30 days free trial Pro"
+msgstr "Obtener prueba gratuita Pro de 30 días"
+
+#: admin/partials/get_options_panel.php:502
+msgid "&#10687; PRO VERSION IS ACTIVE"
+msgstr "&#10687; VERSIÓN PRO ACTIVA"
+
+#: admin/partials/get_options_panel.php:504
+msgid ""
+"If you are no longer going to use the PRO options of the plugin in this "
+"WooCommerce installation, you can deactivate licenses to reduce the limit of "
+"your PRO plan so that you can use it on other websites. You can always "
+"reactivate it with your License Key."
+msgstr ""
+"Si ya no vas a utilizar las opciones PRO del plugin en esta instalación de "
+"WooCommerce, puedes desactivar licencias para reducir el límite de tu plan "
+"PRO para que puedas usarlo en otros sitios web. Siempre puedes reactivarlo "
+"con su clave de licencia."
+
+#: admin/partials/get_options_panel.php:505
+msgid "Deactivate PRO license on this website"
+msgstr "Desactivar licencia PRO en este sitio web"
+
+#: admin/partials/get_options_panel.php:516
+msgid "Quick start"
+msgstr "Inicio Rápido"
+
+#: admin/partials/get_options_panel.php:519
+msgid "Select your preferred options in this menu."
+msgstr "Seleccionar tus opciones preferidas en este menú."
+
+#: admin/partials/get_options_panel.php:521
+msgid "Select in each product if it has a sample and its price in:"
+msgstr "Seleccionar en cada producto si tiene muestra y su precio en:"
+
+#: admin/partials/get_options_panel.php:525
+msgid ""
+"If you have the Pro version you can also select by categories and set a "
+"global price for all samples."
+msgstr ""
+"Si tienes la versión Pro, también puedes seleccionar por categorías y "
+"establecer un precio global para todas las muestras."
+
+#: admin/partials/get_options_panel.php:533
+msgid "Rate our plugin  "
+msgstr "Valora nuestro plugin. "
+
+#: admin/partials/save_options_panel.php:219
+msgid "Options have been saved."
+msgstr "Las opciones se han guardado."
+
+#: admin/partials/save_options_panel.php:228
+msgid "Error nonce saving options."
+msgstr "Error nonce guardando opciones."
+
+#: admin/partials/wc_create_product_fields.php:21
+msgid "Sample active"
+msgstr "Muestra activa"
+
+#: admin/partials/wc_create_product_fields.php:29
+msgid ""
+"Set 0 for free sample. (In the PRO version, if the field is empty, the "
+"default price of the plugin will be used)."
+msgstr ""
+"Establecer 0 para la muestra gratuita. (En la versión PRO, si el campo está "
+"vacío, se utilizará el precio predeterminado del plugin)."
+
+#: admin/partials/wc_create_product_fields.php:31
+msgid "Sample price"
+msgstr "Precio muestra"
+
+#: data/get_data.php:92
+msgid "PRO version"
+msgstr "Versión PRO"
+
+#: includes/check_premium/check_lemon.php:156
+msgid "The premium features of the plugin have been successfully disabled."
+msgstr ""
+"Las características premium del plugin se han desactivado satisfactoriamente."
+
+#: includes/check_premium/master_check_premium.php:34
+msgid "The PRO plugin is activated. "
+msgstr "El plugin PRO está activado. "
+
+#: includes/check_premium/master_check_premium.php:39
+msgid "The PRO plugin is disabled. "
+msgstr "El plugin PRO está desactivado. "
+
+#: public/partials/sample_controller.php:133
+msgid "Show Cart"
+msgstr "Ver carrito"
+
+#: public/partials/sample_controller.php:173
+#, php-format
+msgid ""
+"You have exceeded the maximum number of samples. Reduce to a maximum of %s "
+"samples, please."
+msgstr ""
+"Has superado el número máximo de muestras. Reduce a un máximo de %s "
+"muestras, por favor."
+
+#: public/partials/sample_controller.php:241
+msgid "SAMPLE"
+msgstr "MUESTRA"
+
+#: public/templates/button.php:109
+msgid "Maximum number of samples reached"
+msgstr "Número máximo de muestras alcanzadas"
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Product Sample for WooCommerce"
+msgstr "Simple Product Sample for WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://mci-desarrollo.es/simple-product-sample-pro/?lang=en"
+msgstr "https://mci-desarrollo.es/simple-product-sample-pro/?lang=es"
+
+#. Description of the plugin/theme
+msgid ""
+"Add a button to \"Request sample\" on the WooCommerce product page. It is "
+"possible to activate the sample and configure its price for each product."
+msgstr ""
+"Añade un botón a \"Pedir muestra\" en la página del producto WooCommerce. Es "
+"posible activar la muestra y configurar su precio para cada producto."
+
+#. Author of the plugin/theme
+msgid "MCI Desarrollo"
+msgstr "MCI Desarrollo"
+
+#. Author URI of the plugin/theme
+msgid "https://mci-desarrollo.es"
+msgstr "https://mci-desarrollo.es"
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "Enter the price of the product sample. Set 0 for free."
+#~ msgstr ""
+#~ "Introduce el precio de la muestra de producto. Escribe 0 para muestra "
+#~ "gratis."
+
+#~ msgid "Preview button"
+#~ msgstr "Vista previa del botón"
+
+#~ msgid "Sample price (set 0 for free)"
+#~ msgstr "Precio de muestra ( 0 para gratis)"
+
+#~ msgid "HOW TO CONFIGURE YOUR SAMPLES:"
+#~ msgstr "CÓMO CONFIGURAR TUS MUESTRAS:"
+
+#~ msgid ""
+#~ "Configure how you want to show the sample on each product and its price "
+#~ "in:"
+#~ msgstr ""
+#~ "Configura cómo quieres mostrar la muestra de cada producto y su precio en:"
+
+#~ msgid "OPTIONS"
+#~ msgstr "OPCIONES"
+
+#~ msgid ""
+#~ "When uninstalling the plugin delete all data (including data "
+#~ "configuration) ."
+#~ msgstr ""
+#~ "Al desinstalar el plugin, eliminar todos los datos (incluida la "
+#~ "configuración de datos)."
+
+#~ msgid "Request a sample"
+#~ msgstr "Pedir muestra"
+
+#~ msgid ""
+#~ "You have successfully activated Simple Product Sample. The free Simple "
+#~ "Product Sample plugin has been automatically disabled because both should "
+#~ "not work together. You no longer need the free plugin (Simple Product "
+#~ "Sample for WooCommerce) and if you want, you can remove it."
+#~ msgstr ""
+#~ "Ha activado correctamente Simple Product Sample. El complemento gratuito "
+#~ "Simple Product Sample se ha desactivado automáticamente porque ambos no "
+#~ "deberían funcionar juntos. Ya no necesita el complemento gratuito (Simple "
+#~ "Product Sample for WooCommerce) y si lo desea, puede eliminarlo."

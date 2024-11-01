@@ -1,0 +1,313 @@
+/* STYLESHEET SIMPLE PRODUCT SAMPLE ADMIN */
+
+:root {
+  --mcisps_primary_color: #0073aa;
+  --mcisps_secondary_color: #444444;
+}
+
+#mcisps_title {
+  width: fit-content;
+  color: #ffffff;
+  background: #9b9b9b;
+  height: 25px;
+  padding: 15px 15px 9px 15px;
+  margin: 12px 0 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.mcisps_no_auth {
+  opacity: 0.5;
+}
+.mcisps_options_header {
+  width: 28%;
+  display: block;
+  text-align: right;
+  background: #407daf;
+  color: #ffffff;
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  border-bottom-right-radius: 11px;
+}
+.dev_mode {
+  opacity: 0.58;
+  position: fixed;
+  width: 95%;
+  padding: 15px;
+  color: red;
+  border: 3px solid red;
+  background: #ffe0e6;
+  text-align: center;
+}
+.dev_mode p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.mcisps_preview_btn_wrapper {
+  width: 95%;
+  margin: 0 auto 20px;
+  display: grid;
+  text-align: right;
+  padding: 20px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.mcisps_preview_background {
+  background: #ffffff;
+  min-height: 120px;
+}
+#mcisps_preview_btn {
+  display: block;
+  margin: 0 auto;
+  pointer-events: none;
+}
+.mcisps_prebtn_label {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.mcisps_options td.mcisps_annotation {
+  margin-top: -5px;
+  margin-bottom: 25px;
+  padding: 0;
+  padding-bottom: 25px;
+  font-size: 13px;
+  color: #878787;
+  font-style: italic;
+}
+.mcisps_options .mcisps_pixels .mcisps_annotation {
+  font-size: 13px;
+  color: #878787;
+  font-style: italic;
+  margin-left: 10px;
+}
+.mcisps_options td.mcisps_inline_fields {
+  padding: 0;
+}
+.mcisps_options th label {
+  cursor: default;
+}
+.mcisps_btn_bg_margins {
+  display: flex;
+  background: #fdeac8;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (min-width: 350px) {
+  .mcisps_options_header {
+    min-width: 300px;
+  }
+}
+#mcisps_quick {
+  box-shadow: 0 0 4px grey;
+  background: #f3f3f3;
+  color: #2271b1;
+  width: fit-content;
+  padding: 15px 30px;
+  margin: 15px 12px 15px 0px;
+}
+#mcisps_quick h3 {
+  color: #2271b1;
+  text-decoration: underline;
+}
+#mcisps_quick ol li {
+  font-size: 14px;
+}
+.mcisps_header {
+  background: #727272;
+  color: #ffffff;
+  padding: 12px 40px;
+  margin-bottom: 25px;
+}
+.mcisps_header a {
+  color: #ffc01a;
+  text-decoration: none;
+}
+.mcisps_help_note {
+  color: #004781;
+  padding: 8px 25px;
+  margin: 25px 0;
+}
+.mcisps_form_options {
+  max-width: 1500px;
+}
+.mcisps_label {
+  width: 30%;
+}
+.mcisps_options.mcisps_checkboxes td label {
+  color: #055d89;
+  font-size: 13px;
+}
+.mcisps_options th {
+  font-size: 13px;
+  font-weight: 500;
+  width: 32%;
+  min-width: 360px;
+  text-align: right;
+  padding: 12px 8px;
+}
+.mcisps_options td {
+  width: 70%;
+  min-width: 360px;
+  padding: 12px 8px;
+}
+.mcisps_options th input[type="checkbox"] {
+  margin: 0;
+}
+.mcisps_checkbox label,
+.mcisps_input label,
+.mcisps_input_color label {
+  margin-bottom: 10px;
+  color: #055d89;
+  cursor: default;
+  display: block;
+  width: 100%;
+}
+.mcisps_options .mcisps_text_buttons {
+  width: 190px;
+}
+input[type="password"] {
+  display: block;
+  min-width: 500px;
+  padding: 2px 15px;
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: var(--mcisps_secondary_color);
+}
+.mcisps_options input[type="checkbox"] {
+  border: 1px solid #9b9b9b;
+  width: 18px;
+  height: 18px;
+  margin-top: 0px;
+}
+input[type="checkbox"]::before {
+  margin: -2px 0px 0px -3px !important;
+}
+.mcisps_options select[multiple] {
+  min-width: 100%;
+  min-height: 200px;
+}
+td.mcisps_inline_fields label {
+  vertical-align: initial;
+}
+.mcisps_options input[type="number"] {
+  width: 65px;
+}
+.mcisps_pixels {
+  display: inline-block;
+  margin: 5px 20px 5px 0;
+}
+
+@media (max-width: 768px) {
+  .mcisps_options th {
+    min-width: 100%;
+  }
+  .mcisps_options td {
+    min-width: 100%;
+  }
+}
+
+.label_force_margin {
+  padding-left: 80px !important;
+}
+
+.product_custom_field {
+  margin-left: 10px;
+}
+input.mcisps.button {
+  margin: 15px;
+  padding: 5px 23px;
+  font-size: 14px;
+}
+.sps_btn:hover {
+  opacity: 0.8;
+}
+
+/* PREMIUM */
+#mcisps_login {
+  padding: 20px 20px 5px;
+  margin: 15px 0;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#mcisps_login.background_green {
+  display: inline-block;
+  background: #f2fff4;
+  box-shadow: 0 0 10px 0px #0c6a0c36;
+  border: 1px solid #cbcbcb;
+}
+#mcisps_login .mcisps_success {
+  display: block;
+  padding-bottom: 13px;
+}
+.deactivate_text {
+  color: gray;
+  margin-top: 0px;
+}
+#mcisps_deactivate {
+  float: right;
+  font-size: 13px;
+  background-color: #ff5200c2 !important;
+}
+#mcisps_show_email_field {
+  float: right;
+  line-height: 8;
+  cursor: pointer;
+}
+.mcisps_btn.green {
+  background-color: rgb(247, 255, 247) !important;
+  border: 1px solid green;
+  font-size: 14px !important;
+  color: green !important;
+  text-decoration: none;
+}
+.mcisps_btn.green:focus {
+  box-shadow: none;
+}
+.mcisps_btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: var(--mcisps_primary_color) !important;
+  color: #ffffff !important;
+  padding: 6px 23px;
+  border-color: transparent;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+#mcisps_login {
+  padding: 20px 20px 5px;
+  margin: 15px 0;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.mcisps_success {
+  color: green;
+}
+.mcisps_notice {
+  margin-left: 175px;
+}

@@ -1,0 +1,359 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Simple Product Sample for WooCommerce\n"
+"POT-Creation-Date: 2023-02-07 20:32+0100\n"
+"PO-Revision-Date: 2022-10-20 13:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: simple-product-sample.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/master_admin.php:31
+msgid "Settings"
+msgstr ""
+
+#: admin/master_admin.php:53
+msgid ""
+"\"Simple Product Sample\" plugin requires WooCommerce to be installed and "
+"active. Please install and activate WooCommerce first."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:45
+msgid "SIMPLE PRODUCT SAMPLE - Options -"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:49
+msgid "Do you want the PRO version? "
+msgstr ""
+
+#: admin/partials/get_options_panel.php:51
+msgid "Get a 30-day free trial here."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:55
+msgid "Do you need changes in the plugin? Send us an email to"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:57
+msgid "and we will send you a quote."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:61
+msgid "Thanks for using our plugin. "
+msgstr ""
+
+#: admin/partials/get_options_panel.php:63
+msgid "You will be collaborating to maintain it if you value  "
+msgstr ""
+
+#: admin/partials/get_options_panel.php:72
+msgid "Button style"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:78
+msgid "Button Preview:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:88
+msgid "Background button color"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:97
+msgid "Text button color"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:106
+msgid "Border color"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:115
+msgid "Border width"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:126
+msgid "Button text"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:138
+msgid "Use {price} to display the price of the sample."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:145
+msgid "Button text (max.samples)"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:159
+msgid "Use {max} to display the number of maximum samples."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:167
+msgid "Font size"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:179
+msgid "Empty field for use default font size."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:186
+msgid "Font weight"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:197
+msgid ""
+"(From 100 to 900 in steps of 100) Empty field for use default font weight."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:210
+msgid "Padding:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:218
+#: admin/partials/get_options_panel.php:282
+msgid "Top"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:230
+#: admin/partials/get_options_panel.php:294
+msgid "Bottom"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:242
+#: admin/partials/get_options_panel.php:306
+msgid "Left"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:254
+#: admin/partials/get_options_panel.php:318
+msgid "Right"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:268
+msgid "Empty fields for use default padding."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:274
+msgid "Margin:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:332
+msgid "Empty fields for use default margin."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:338
+msgid ""
+"Force the margins on the product page so that the \"Add to cart\" button and "
+"the \"quantity\" field appear aligned. Match the margin of those fields to:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:355
+msgid "Empty field for use WooCommerce default margins."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:366
+msgid "General Options"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:372
+msgid "Maximum number of samples per order"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:389
+msgid ""
+"Avoid the user having to choose product variations. (Does not add the "
+"variations details to the order)."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:399
+msgid "Remove all data on plugin uninstall."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:408
+msgid "Prices"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:410
+msgid "Set a sample price for each product at:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:411
+#: admin/partials/get_options_panel.php:444
+#: admin/partials/get_options_panel.php:522
+msgid ""
+"Products->Edit product page->Product data->Inventory->Simple Product Sample"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:419
+msgid "Default global sample price (When there is no individual price)"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:433
+msgid ""
+"Default price will be assigned to products that do not have an individual "
+"price selected. Set 0 for free."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:440
+msgid "Show on specific products"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:443
+msgid "Activate the sample on each product in:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:450
+msgid "Show in products by category"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:459
+msgid "Show sample button in these product categories"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:475
+msgid "Use CTRL or Shift for multiple selection"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:484
+msgid "Save changes"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:491
+msgid "License key"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:495
+msgid "Activate PRO"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:498
+msgid "Get 30 days free trial Pro"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:502
+msgid "&#10687; PRO VERSION IS ACTIVE"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:504
+msgid ""
+"If you are no longer going to use the PRO options of the plugin in this "
+"WooCommerce installation, you can deactivate licenses to reduce the limit of "
+"your PRO plan so that you can use it on other websites. You can always "
+"reactivate it with your License Key."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:505
+msgid "Deactivate PRO license on this website"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:516
+msgid "Quick start"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:519
+msgid "Select your preferred options in this menu."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:521
+msgid "Select in each product if it has a sample and its price in:"
+msgstr ""
+
+#: admin/partials/get_options_panel.php:525
+msgid ""
+"If you have the Pro version you can also select by categories and set a "
+"global price for all samples."
+msgstr ""
+
+#: admin/partials/get_options_panel.php:533
+msgid "Rate our plugin  "
+msgstr ""
+
+#: admin/partials/save_options_panel.php:219
+msgid "Options have been saved."
+msgstr ""
+
+#: admin/partials/save_options_panel.php:228
+msgid "Error nonce saving options."
+msgstr ""
+
+#: admin/partials/wc_create_product_fields.php:21
+msgid "Sample active"
+msgstr ""
+
+#: admin/partials/wc_create_product_fields.php:29
+msgid ""
+"Set 0 for free sample. (In the PRO version, if the field is empty, the "
+"default price of the plugin will be used)."
+msgstr ""
+
+#: admin/partials/wc_create_product_fields.php:31
+msgid "Sample price"
+msgstr ""
+
+#: data/get_data.php:92
+msgid "PRO version"
+msgstr ""
+
+#: includes/check_premium/check_lemon.php:156
+msgid "The premium features of the plugin have been successfully disabled."
+msgstr ""
+
+#: includes/check_premium/master_check_premium.php:34
+msgid "The PRO plugin is activated. "
+msgstr ""
+
+#: includes/check_premium/master_check_premium.php:39
+msgid "The PRO plugin is disabled. "
+msgstr ""
+
+#: public/partials/sample_controller.php:133
+msgid "Show Cart"
+msgstr ""
+
+#: public/partials/sample_controller.php:173
+#, php-format
+msgid ""
+"You have exceeded the maximum number of samples. Reduce to a maximum of %s "
+"samples, please."
+msgstr ""
+
+#: public/partials/sample_controller.php:241
+msgid "SAMPLE"
+msgstr ""
+
+#: public/templates/button.php:109
+msgid "Maximum number of samples reached"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Product Sample for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://mci-desarrollo.es/simple-product-sample-pro/?lang=en"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add a button to \"Request sample\" on the WooCommerce product page. It is "
+"possible to activate the sample and configure its price for each product."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MCI Desarrollo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mci-desarrollo.es"
+msgstr ""
